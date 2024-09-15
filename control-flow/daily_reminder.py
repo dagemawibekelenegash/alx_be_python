@@ -18,4 +18,7 @@ if time_bound == "yes":
 elif time_bound == "no" and priority == "low":
     reminder += ". Consider completing it when you have free time."
 
+if not reminder.startswith("Reminder: "):
+    reminder = "Reminder: " + reminder
+
 print(reminder)
