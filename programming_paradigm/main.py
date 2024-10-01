@@ -13,8 +13,6 @@ def main():
     
     if isinstance(result, float):
         print(f"The result of the division is {result}")
-    else:
-        print(result)
 
 if __name__ == "__main__":
     main()
